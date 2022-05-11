@@ -1,0 +1,290 @@
+.container {
+  width: 94%;
+  margin: auto;
+}
+
+
+.cont-flex {
+  display: grid;
+  grid-template-columns: .6fr 1.4fr;
+}
+
+.left-sec {
+  width: 50vw;
+}
+
+.bottom-im-slider {
+  display: flex;
+  margin-top: 50px;
+}
+
+
+
+button {
+  font-weight: 700;
+}
+
+.div-flex {
+  display: flex;
+}
+
+.bottom-im-slider img {
+  width: 90px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.bottom-im-slider img:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgb(51, 51, 51) 0px 0px 0px 2.5px;
+}
+
+.active2 {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 3px, rgb(51, 51, 51) 0px 0px 0px 2.5px;
+}
+
+.top-img-container {
+  margin-top: 90px;
+  margin-left: 70px;
+  overflow: hidden;
+  width: 350px;
+}
+
+.img-slide {
+  height: 100%;
+  transition: all .5s ease;
+  display: flex;
+  transform: translateX(0);
+}
+
+.img-slide img {
+  width: 350px;
+}
+
+.right-sec {
+  margin-left: -100px;
+  margin-bottom: 100px;
+}
+
+.right-sec h1 {
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.ram-h5 {
+  margin-top: 20px;
+}
+
+.Ram {
+  /* margin-top: 30px; */
+}
+
+.Ram button {
+  border: none;
+  width: 180px;
+  height: 60px;
+  gap: 10px;
+  margin-right: 10px;
+  background-color: inherit;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.xotira {
+  margin-top: 30px;
+}
+
+.xotira button {
+  border: none;
+  width: 180px;
+  height: 60px;
+  gap: 10px;
+  margin-right: 10px;
+  background-color: inherit;
+  border: 1px solid #999;
+  border-radius: 10px;
+}
+
+.ranglar {
+  margin-top: 30px;
+}
+
+.btns{
+  border: none;
+  width: 190px;
+  height: 70px;
+  gap: 10px;
+  margin-right: 10px;
+  background-color: inherit;
+  border: 1px solid #999;
+  border-radius: 10px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#one1{
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: gold;
+}
+
+#one2{
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+#one3{
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(196, 196, 196);
+}
+
+.rang {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.active {
+  border: 2px solid rgb(47, 117, 239) !important;
+}
+.soni {
+  display: flex;
+  margin-top: 20px;
+}
+
+.soni p {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+.soni button {
+  border: none;
+  height: 40px;
+  width: 40px;
+  border: 1px solid #999;
+  align-items: center;
+  background-color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.narxi {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.savatga-qushish {
+  display: block;
+  text-align: center;
+}
+
+.savatga-qushish button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.savat {
+  background-color: #06c !important;
+  color: #fff !important;
+}
+
+.xot {
+  margin-top: 20px;
+}
+
+.num {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.minus:disabled {
+  color: #000;
+}
+
+.rang-tillo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: gold;
+  margin: auto;
+}
+
+.rang-kumush {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(171, 171, 171);
+  margin: auto;
+}
+
+.rang-kosmik {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(116, 115, 110);
+  margin: auto;
+}
+
+
+.rang-btn {
+  text-align: center;
+}
+
+.to-firstSlide {
+  transform: translateX(0) !important;
+}
+
+.to-secondSlide {
+  transform: translateX(-350px) !important;
+}
+
+.to-thirdSlide {
+  transform: translateX(-700px) !important;
+}
+
+.to-fourSlide {
+  transform: translateX(-1050px) !important;
+}
+
+.to-fiveSlide {
+  transform: translateX(-1400px) !important;
+}
+
+.xotir-div {
+  display: flex;
+}
+
+.savat {
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  transition: all .4s ease;
+}
+
+.savat:hover {
+  background-color: rgb(6, 84, 163) !important;
+}
+
+.eski-narxi {
+  text-decoration: line-through;
+  font-size: 40px;
+  color: #999;
+}
