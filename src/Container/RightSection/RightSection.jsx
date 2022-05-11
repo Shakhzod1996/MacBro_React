@@ -33,7 +33,7 @@ export default function RightSection({
   return (
     <div className="right-sec">
       <h1>
-        MacBook Air 13-inch <br /> M1/
+        MacBook Air 13-inch <br /> M1/{position? ram1 : ram}/
         {topChange === "one"
           ? xotira1
           : topChange === "two"
